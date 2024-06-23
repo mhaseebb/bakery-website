@@ -1,0 +1,105 @@
+*{
+    margin: 0px;.
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.nav{
+    width:100%;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    /* background-image: linear-gradient(#033747 ,#012733); */
+    background-color:#F68D49;
+    
+}
+.nav ul{
+    float: right;
+} 
+.nav li{
+    display: inline-block;
+    list-style: none;
+    
+}
+.nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+padding: 0px 30px;
+color: white;
+text-decoration: none;
+}
+ .nav li a:hover{
+    color:black;
+}
+.banner img {
+    width: 100%;
+    height: 699px;
+    object-fit: cover;
+}
+
+  .left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    margin: 8px;
+  }
+ .left img{
+    width:100px ;
+    top: 5px;
+ }
+ 
+ .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #B75126;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+.bottom-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* Vertically center items */
+    padding: 10px 0;
+    margin: 0;
+    width: 100%; /* Ensures the ul takes full width */
+    
+}
+
+
+.bottom-nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.bottom-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column; /* Column layout for icon and text */
+    align-items: center; /* Center align icon and text */
+    justify-content: center; /* Center align icon and text */
+}
+
+.bottom-nav ul li a i {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 5px; /* Space between icon and text */
+}
+
+.bottom-nav ul li a span {
+    display: block;
+    font-size: 12px;
+}
+#zyz li a{
+    color: white;
+}
+.bottom-nav ul li a:{
+    margin: 5px;
+    text-align: center;
+}
+.bottom-nav li a:hover{
+    color:black;
+}
